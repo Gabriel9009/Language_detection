@@ -1,14 +1,15 @@
 import streamlit as st
 import joblib
 import re
+import os
 
+BASE_DIR = os.path.dirname(__file__)
 
-# Load trained model
-# ---------------------------------------------------
-model = joblib.load("language_model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model_path = os.path.join(BASE_DIR, "language_model.pkl")
+vectorizer_path = os.path.join(BASE_DIR, "vectorizer.pkl")
 
-
+model = joblib.load(model_path)
+vectorizer = joblib.load(vectorizer_path)
 # Page config
 # ---------------------------------------------------
 st.set_page_config(
