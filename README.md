@@ -51,7 +51,9 @@ language-detection-app/
 
 ### Home Interface
 
-_Add your screenshot here_
+<img width="494" height="513" alt="{43E463E8-5783-41F3-816E-F1C3F1091CEA}" src="https://github.com/user-attachments/assets/73eb43e5-4bf4-49a5-87bc-3883c1839f1f" />
+
+
 
 ```md
 ![App Screenshot](screenshot.png)
@@ -61,11 +63,6 @@ _Add your screenshot here_
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/language-detection-app.git
-```
 
 ### 2. Navigate into the project directory
 
@@ -131,12 +128,9 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-_Add your deployed Streamlit link here_
-
-Example:
 
 ```md
-https://your-app-name.streamlit.app/
+https://languagethetection.streamlit.app/
 ```
 
 ---
